@@ -7,10 +7,12 @@
 
     "browser_action": {
         "default_icon": "icon.png",
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_title": "Click for Peaches!"
     },
     "permissions": [
-        "activeTab",
-        "https://ajax.googleapis.com/"
-    ]
+	    "tabs",
+	    "https://ajax.googleapis.com/",
+	    "http://ajax.googleapis.com/"
+  ]
 }
